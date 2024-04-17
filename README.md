@@ -1,7 +1,7 @@
 # Twitch_autoplayer
-This tiny script allows you to have your favorite streamer displayed on your Raspberry Pi display as soon as they start streaming!
+This tiny script allows you to have your favorites streamers displayed on your Raspberry Pi display as soon as they start streaming!
 
-You can define a list of streamers you want to watch, and the script will show you the first one that streams.
+You can define a list of streamers that you want to watch, and the script will show you the first one that streams.
 
 I found [rsheldiii](https://github.com/rsheldiii/twitch.tv-TV) repo and thought 'hmm I can make that more complicate' 
 
