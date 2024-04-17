@@ -1,0 +1,21 @@
+[Unit]
+Description=Twitch.tv TV
+
+[Service]
+User=adm-gen
+Group=adm-gen
+ExecStart=/home/adm-gen/twitch_tv.sh
+WorkingDirectory=/home/adm-gen
+
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+Environment="HOME=/home/adm-gen"
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/adm-gen/.Xauthority
+StandardError=inherit
+ExecStop=tmux kill-session -s twitch_player_stream
+KillMode=process
+KillSignal=SIGTERM
+
+
+[Install]
+WantedBy=multi-user.target

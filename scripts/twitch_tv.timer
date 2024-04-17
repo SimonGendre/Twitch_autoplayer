@@ -1,0 +1,10 @@
+[Unit]
+Description=Delay before starting Twitch.tv TV service
+
+[Timer]
+# Wait 60 seconds after boot before activating the service
+OnBootSec=60
+Unit=twitch_tv.service
+
+[Install]
+WantedBy=timers.target
