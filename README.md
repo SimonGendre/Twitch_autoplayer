@@ -3,6 +3,8 @@ This tiny script allows you to have your favorite streamer displayed on your Ras
 
 You can define a list of streamers you want to watch, and the script will show you the first one that streams.
 
+I found [rsheldiii](https://github.com/rsheldiii/twitch.tv-TV) repo and thought 'hmm I can make that more complicate' 
+
 ## Set up
 In order for it to work, the script needs both Streamlink and Tmux to be installed on your system.
 
